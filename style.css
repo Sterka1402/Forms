@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+.container{
+  padding: 30px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  padding: 20px 0;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.data {
+  width: 32%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.border{
+  color: grey;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.or{
+  color: grey;
+  text-align: center;
+}
+.or:before{
+  content: " -----  ";
+ }
+.or:after{
+  content: "  -----  ";
+}
+p{
+  padding: 10px 0;
+  color: grey;
+}
+.registration {
+  color: white;
+  background-color: #4fa540;
+}
+.fb {
+  color: white;
+  background-color: #2f50a3;
+}

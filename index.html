@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h3>Пожалуйста, укажите Ваше имя и фамилию.</h3>
+      <p>Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии</p>
+    </div>
+  <form action="index.html" method="POST" autocomplete="off">
+    <label>
+      <input type="text" name="firstname" class="field border" placeholder="Ваше имя">
+    </label> 
+    <label>
+      <input type="text" name="lastname" class="field border" placeholder="Ваша фамилия">
+    <p>Дата Рождения</p>
+    <select name="date" class="data border" placeholder="День"> 
+      <option value="day" selected disabled>День</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select> 
+    <select name="month" class="data border"> 
+      <option value="month_def" selected disabled>Месяц</option>
+      <option value="1">Январь</option>
+      <option value="2">Февраль</option>
+      <option value="3">Март</option>
+      <option value="4">Апрель</option>
+      <option value="5">Май</option>
+      <option value="6">Июнь</option>
+      <option value="7">Июль</option>
+      <option value="8">Август</option>
+      <option value="9">Сентябрь</option>
+      <option value="10">Октябрь</option>
+      <option value="11">Ноябрь</option>
+      <option value="12">Декабрь</option>
+    </select> 
+    <select name="year" class="data border" > 
+      <option value="year_def" selected disabled>Год</option>
+      <option value="1990">1990</option>
+      <option value="1991">1991</option>
+      <option value="1992">1992</option>
+      <option value="1993">1993</option>
+      <option value="1994">1994</option>
+      <option value="1995">1995</option>
+      <option value="1996">1996</option>
+      <option value="1997">1997</option>
+      <option value="1998">1998</option>
+      <option value="1999">1999</option>
+      <option value="2000">2000</option>
+      <option value="2001">2001</option>
+    </select>
+    <button type="submit" class="field border registration" name="">Зарегистрироваться </button>
+    <div class="or">или</div>
+    
+  </form>
+  <form action="https://www.facebook.com/" method="POST" autocomplete="on">
+    <button class="field border fb" name="">Продолжить с Facebook</button>
+  </form>
+</div>
+</body>
+</html>
