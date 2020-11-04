@@ -1,55 +1,89 @@
 * {
   padding: 0;
   margin: 0 auto;
+  outline: none;
+  box-sizing: border-box;
 }
+
 .container{
   padding: 30px;
   width: 1000px;
   margin: 0 auto;
 }
+
 .title {
   text-align: center;
   padding: 20px 0;
 }
+
 form {
   width: 400px;
   margin: 0 auto;
   padding: 10px 0;
 }
+
 .field {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   margin: 10px 0;
 }
+
 .data {
   width: 32%;
   padding: 10px;
   margin: 10px 0;
 }
+
 .border{
   color: grey;
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 7px;
 }
+
 .or{
   color: grey;
   text-align: center;
 }
+
 .or:before{
-  content: " -----  ";
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  border-bottom: 1px solid gray;
+  margin: 0 5px 0 0;
  }
+
 .or:after{
-  content: "  -----  ";
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  border-bottom: 1px solid gray;
+  margin: 0 0 0 5px;
 }
+
 p{
   padding: 10px 0;
   color: grey;
 }
+
 .registration {
+  font-size: 18px;
   color: white;
   background-color: #4fa540;
 }
+
+.registration :hover{
+  background-color: greenyellow;
+}
+
 .fb {
+  font-size: 18px;
   color: white;
   background-color: #2f50a3;
+}
+
+.fb :hover{
+  background-color: lightskyblue;
 }

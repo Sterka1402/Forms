@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Forms</title>
 </head>
 <body>
   <div class="container">
@@ -18,8 +18,9 @@
     </label> 
     <label>
       <input type="text" name="lastname" class="field border" placeholder="Ваша фамилия">
-    <p>Дата Рождения</p>
-    <select name="date" class="data border" placeholder="День"> 
+    </label>
+      <p>Дата Рождения</p>
+    <select name="date" class="data border"> 
       <option value="day" selected disabled>День</option>
       <option value="1">1</option>
       <option value="2">2</option>
@@ -60,11 +61,11 @@
       <option value="2000">2000</option>
       <option value="2001">2001</option>
     </select>
-    <button type="submit" class="field border registration" name="">Зарегистрироваться </button>
+    <button type="submit" class="field border registration" name="Registration">Зарегистрироваться </button>
   </form>
   <div class="or">или</div>
   <form action="https://www.facebook.com/" method="POST" autocomplete="on">
-    <button class="field border fb" name="">Продолжить с Facebook</button>
+    <button class="field border fb" name="Facebook">Продолжить с Facebook</button>
   </form>
 </div>
 </body>
