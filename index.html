@@ -13,12 +13,12 @@
       <p>Чтобы облегчить общение и поиск друзей, у нас приняты настоящие имена и фамилии</p>
     </div>
   <form action="index.html" method="POST" autocomplete="off">
-    <label>
+    <div>
       <input type="text" name="firstname" class="field border" placeholder="Ваше имя">
-    </label> 
-    <label>
+    </div> 
+    <div>
       <input type="text" name="lastname" class="field border" placeholder="Ваша фамилия">
-    </label>
+    </div>
       <p>Дата Рождения</p>
     <select name="date" class="data border"> 
       <option value="day" selected disabled>День</option>
@@ -62,10 +62,8 @@
       <option value="2001">2001</option>
     </select>
     <button type="submit" class="field border registration" name="Registration">Зарегистрироваться </button>
-  </form>
-  <div class="or">или</div>
-  <form action="https://www.facebook.com/" method="POST" autocomplete="on">
-    <button class="field border fb" name="Facebook">Продолжить с Facebook</button>
+    <div class="or">или</div>
+    <button class="field border fb" name="Facebook"> Продолжить с Facebook</button>
   </form>
 </div>
 </body>
