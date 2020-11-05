@@ -73,11 +73,14 @@ p{
 .registration {
   font-size: 18px;
   color: white;
-  background-color: #4fa540;
+  background-color: #348d24;
+  border: none;
+  transition: .2s;
+  cursor: pointer;
 }
 
-button :hover{
-  background-color: greenyellow;
+.registration:hover{
+  background-color: rgb(124, 187, 29);
   cursor: pointer;
 }
 
@@ -85,8 +88,12 @@ button :hover{
   font-size: 18px;
   color: white;
   background-color: #2f50a3;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
 }
 
-/* .fb :hover{
+.fb:hover{
   background-color: lightskyblue;
-} */
+  cursor: pointer;
+}
